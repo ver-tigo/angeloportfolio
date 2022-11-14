@@ -1,0 +1,48 @@
+.options {
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin-top: 0.5em;
+    height: 10em;
+    width: 90%;
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.container {
+    border-radius: 15px;
+    box-shadow: -1px 5px 15px rgb(77, 77, 77);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "trebuchet ms";
+    width: 10em;
+    margin: 2em;
+}
+
+  .container:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+    filter: invert(1);
+    color: black;
+    background-color: white;
+    box-shadow: none;
+  }
+
+  .container:active {
+    transform: scale(1);
+    background-color: #ffffff;
+    box-shadow: -1px 5px 15px rgb(77, 77, 77);
+    color: rgb(0, 0, 0);
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
